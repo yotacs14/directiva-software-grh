@@ -1,0 +1,61 @@
+esquema: regla-normativa-v1+dsw
+id_regla: REG-DSW-7.3.4b
+titulo: Archivo LICENCIA.txt en el repositorio (Anexo 07)
+dominio: directiva-software-grh
+tipo_regla: OBLIGACION
+enunciado: Si se determina licencia libre o abierta, el repositorio incorpora el archivo LICENCIA.txt
+  conforme al Anexo N°07.
+enunciado_es: PARAFRASIS-IA
+actor: Unidades de Organización
+accion: null
+objeto: null
+condiciones:
+- se determinó licencia libre o abierta
+excepciones: []
+plazo: null
+evidencias_requeridas: []
+fuente:
+  id_documento: DSW-02S5
+  version: v1.0
+  archivo_texto: v1.0/originales/directiva-02S5-v1.0.docx
+  sha256_texto: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
+  archivo_paginas: v1.0/originales/directiva-02S5-v1.0-sgd-7501018.pdf
+  sha256_paginas: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
+  numeral: 7.3.4 b)
+  pagina_pdf: '12'
+  fecha_consulta: '2026-11-09'
+  texto_citado: 'Determinada la aplicación de una licencia libre o abierta al software institucional,
+    las Unidades de Organización aseguran el cumplimiento de lo siguiente: […] b) En el repositorio institucional
+    se incorpora el archivo "LICENCIA.txt" conforme al Anexo N°07.'
+  texto_identico_en_pdf: true
+  extraccion: v1.0/extraccion/directiva.md
+  estado_calidad_extraccion: SIN-REVISAR
+vigencia:
+  estado: POR-CONFIRMAR
+  fecha_desde: null
+  fuente_verificacion: null
+  nota: 'Ver fuente.yaml: no consta acto de aprobación.'
+procedencia:
+  origen: IA
+  extraccion_revisada: false
+validacion:
+  estado: BORRADOR-IA
+  revision: 1
+  validado_por: null
+  fecha_ultima_revision: null
+  eventos_revision: []
+aplicacion_propuesta:
+  origen: IA
+  estado: BORRADOR-IA
+  nota: Campos de uso de la skill; son interpretación y se validan junto con la regla.
+  aplica_a:
+  - independiente
+  - utilitario
+  momento:
+  - hito-iii
+  - regularizacion-11.1
+  artefacto: repositorio
+  verificacion: Existe LICENCIA.txt en el repositorio con la estructura del Anexo N°07.
+relaciones:
+  reglas_relacionadas: []
+observaciones: []

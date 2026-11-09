@@ -1,0 +1,67 @@
+esquema: regla-normativa-v1+dsw
+id_regla: REG-DSW-11.1a
+titulo: Requisitos de regularización para solución independiente
+dominio: directiva-software-grh
+tipo_regla: OBLIGACION
+enunciado: Para una solución independiente y completa, la regularización incluye los diez requisitos listados
+  en el literal a) del numeral 11.1.
+enunciado_es: PARAFRASIS-IA
+actor: null
+accion: null
+objeto: null
+condiciones:
+- solución independiente y completa
+excepciones: []
+plazo: null
+evidencias_requeridas: []
+fuente:
+  id_documento: DSW-02S5
+  version: v1.0
+  archivo_texto: v1.0/originales/directiva-02S5-v1.0.docx
+  sha256_texto: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
+  archivo_paginas: v1.0/originales/directiva-02S5-v1.0-sgd-7501018.pdf
+  sha256_paginas: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
+  numeral: 11.1 a)
+  pagina_pdf: '19'
+  fecha_consulta: '2026-11-09'
+  texto_citado: 'Tratándose de software institucional que constituye una solución independiente y completa:
+    Documentación mínima establecida en el Anexo N°04, en su integridad. Control de versiones y trazabilidad
+    de cambios. Matriz de dependencias, librerías y componentes utilizados, conforme al Anexo N°03. Determinación
+    del licenciamiento aplicable, mediante el informe técnico correspondiente. Incorporación de glosas
+    de licencia, cuando corresponda. Incorporación del archivo "LICENCIA.txt", cuando corresponda. Referencias
+    de licencia en el código fuente, cuando corresponda. Verificación definitiva de la titularidad institucional
+    o acreditación de derechos patrimoniales. Implementación de medidas de seguridad de la información
+    y protección de datos personales. Incorporación al repositorio institucional, conforme al numeral
+    7.1.'
+  texto_identico_en_pdf: true
+  extraccion: v1.0/extraccion/directiva.md
+  estado_calidad_extraccion: SIN-REVISAR
+vigencia:
+  estado: POR-CONFIRMAR
+  fecha_desde: null
+  fuente_verificacion: null
+  nota: 'Ver fuente.yaml: no consta acto de aprobación.'
+procedencia:
+  origen: IA
+  extraccion_revisada: false
+validacion:
+  estado: BORRADOR-IA
+  revision: 1
+  validado_por: null
+  fecha_ultima_revision: null
+  eventos_revision: []
+aplicacion_propuesta:
+  origen: IA
+  estado: BORRADOR-IA
+  nota: Campos de uso de la skill; son interpretación y se validan junto con la regla.
+  aplica_a:
+  - independiente
+  momento:
+  - regularizacion-11.1
+  artefacto: expediente
+  verificacion: Cada uno de los diez requisitos tiene evidencia identificada en el expediente.
+relaciones:
+  reglas_relacionadas: []
+observaciones:
+- En el .docx la numeración automática de este literal aparece como "a." en ambos literales; en el PDF
+  7501018 figuran como a) y b). Se adopta la numeración del PDF.

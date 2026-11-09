@@ -1,0 +1,23 @@
+# Paquete de contexto por tarea (adaptado de modelado-procesos).
+# Define qué puede leer y modificar el agente en una tarea concreta, para no cargar todo el repositorio.
+esquema: paquete-contexto-v1
+tarea: pendiente                 # p. ej. "actualizar documentación tras cambio en LineaTiempo"
+objetivo: pendiente
+proyecto: pendiente
+commit_base: pendiente
+modo: pendiente                  # inicializar | actualizar-documentos | auditar | licenciar | construir
+fuentes_activas: []              # archivos de código / BD a contrastar
+documentos_afectados: []         # .md cuyo "cubre:" coincide con el diff
+reglas_aplicables: []            # REG-DSW-…@rN
+archivos_modificables: []
+excluido_del_contexto:
+  - "**/*.docx"
+  - "**/*.pdf"
+  - "node_modules/**"
+  - "vendor/**"
+restricciones:
+  - Aplicar references/protocolos/no-inventar.md.
+  - No asignar VALIDADO ni APROBADO.
+  - Registrar EVIDENCIA-INSUFICIENTE cuando las fuentes no sostengan una afirmación.
+preguntas_abiertas: []
+criterio_cierre: pendiente

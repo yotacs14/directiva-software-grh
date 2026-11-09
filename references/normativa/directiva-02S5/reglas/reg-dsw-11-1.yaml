@@ -1,0 +1,70 @@
+esquema: regla-normativa-v1+dsw
+id_regla: REG-DSW-11.1
+titulo: Regularización de software en producción o concluido
+dominio: directiva-software-grh
+tipo_regla: OBLIGACION
+enunciado: Las Unidades de Organización con software desarrollado internamente en producción o concluido
+  regularizan su adecuación y remiten a la SGMTD, vía GRPPAT, el inventario y la documentación en un plazo
+  máximo de 60 días hábiles desde la entrada en vigencia.
+enunciado_es: PARAFRASIS-IA
+actor: Unidades de Organización
+accion: null
+objeto: null
+condiciones:
+- software desarrollado internamente
+- en producción o con desarrollo concluido a la entrada en vigencia
+excepciones: []
+plazo: null
+evidencias_requeridas: []
+fuente:
+  id_documento: DSW-02S5
+  version: v1.0
+  archivo_texto: v1.0/originales/directiva-02S5-v1.0.docx
+  sha256_texto: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
+  archivo_paginas: v1.0/originales/directiva-02S5-v1.0-sgd-7501018.pdf
+  sha256_paginas: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
+  numeral: '11.1'
+  pagina_pdf: 18-19
+  fecha_consulta: '2026-11-09'
+  texto_citado: 'Las Unidades de Organización que, a la entrada en vigencia de la presente directiva,
+    cuentan con software institucional desarrollado internamente que se encuentra en producción o cuyo
+    desarrollo ha concluido, regularizan su adecuación a las disposiciones establecidas en la presente
+    directiva, incluyendo su incorporación al repositorio institucional, documentación técnica, control
+    de versiones, titularidad institucional, licenciamiento y demás requisitos aplicables. Para dicho
+    efecto, remiten a la Sub Gerencia de Modernización y Transformación Digital, por intermedio de la
+    Gerencia Regional de Planeamiento, Presupuesto y Acondicionamiento Territorial, en un plazo máximo
+    de sesenta (60) días hábiles contados desde la entrada en vigencia de la presente directiva, el inventario
+    del software institucional desarrollado internamente que se encuentra en producción o cuyo desarrollo
+    ha concluido, acompañado de la siguiente información y documentación, según corresponda:'
+  texto_identico_en_pdf: true
+  extraccion: v1.0/extraccion/directiva.md
+  estado_calidad_extraccion: SIN-REVISAR
+vigencia:
+  estado: POR-CONFIRMAR
+  fecha_desde: null
+  fuente_verificacion: null
+  nota: 'Ver fuente.yaml: no consta acto de aprobación.'
+procedencia:
+  origen: IA
+  extraccion_revisada: false
+validacion:
+  estado: BORRADOR-IA
+  revision: 1
+  validado_por: null
+  fecha_ultima_revision: null
+  eventos_revision: []
+aplicacion_propuesta:
+  origen: IA
+  estado: BORRADOR-IA
+  nota: Campos de uso de la skill; son interpretación y se validan junto con la regla.
+  aplica_a:
+  - independiente
+  - utilitario
+  momento:
+  - regularizacion-11.1
+  artefacto: inventario
+  verificacion: Existe informe de remisión del inventario y su documentación a la SGMTD vía GRPPAT.
+relaciones:
+  reglas_relacionadas: []
+observaciones:
+- El plazo de 60 días hábiles depende de la fecha de entrada en vigencia, que está POR-CONFIRMAR.

@@ -1,0 +1,66 @@
+esquema: fuente-normativa-v1
+id_documento: DSW-02S5
+codigo: "N°02.S5.DI.SGMTD – V1.0"
+titulo: >-
+  Directiva para el desarrollo, documentación, versionamiento, licenciamiento y gestión
+  de repositorios de software institucional en el Gobierno Regional Huánuco
+emisor: Sub Gerencia de Modernización y Transformación Digital (SGMTD)
+fecha_registro: "2026-11-09"
+registrado_por: agente-ia   # registro; no implica validación
+
+aprobacion:
+  acto_resolutivo: POR-CONFIRMAR      # no consta RGG en ninguno de los archivos recibidos
+  fecha: POR-CONFIRMAR
+  evidencia_observada: >-
+    El PDF SGD 7501018 lleva dos firmas digitales: formulador (GODOY GOICOCHEA Kevin Steven,
+    "Soy el autor del documento", 22/07/2026) y conformidad del Sub Gerente de la SGMTD
+    (AGUIRRE TELLO Walther Raul Ii Benjamin, "En señal de conformidad", 24/07/2026).
+    No se observan firmas de la Gerencia Regional de Asesoría Jurídica ni de la Gerencia
+    General Regional, que figuran en la carátula como "Revisado por" y "Aprobado por".
+
+vigencia:
+  estado: POR-CONFIRMAR
+  fecha_desde: null
+  nota: >-
+    Mientras no conste la aprobación, no puede computarse ningún plazo contado "desde la
+    entrada en vigencia" (por ejemplo, los 60 días hábiles del numeral 11.1).
+
+versiones:
+  - version: v1.0
+    archivos:
+      - archivo: v1.0/originales/directiva-02S5-v1.0.docx
+        nombre_recibido: "Directiva Software Institucional GOREHCO.docx"
+        sha256: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
+        rol: texto-de-referencia     # versión más reciente recibida
+        metadatos_internos: "última modificación 2026-09-16T17:06:00Z; revisión 116"
+        firmas: ninguna
+      - archivo: v1.0/originales/directiva-02S5-v1.0-sgd-7501018.pdf
+        nombre_recibido: "7501018 Directiva Software Institucional GOREHCO.pdf"
+        sha256: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
+        rol: referencia-de-paginas   # 38 páginas físicas; cabecera "Página: N de 37" coincide con la física en las páginas citadas
+        firmas: [formulador 22/07/2026, conformidad SGMTD 24/07/2026]
+        nota: >-
+          Versión anterior al .docx. En los pasajes de las reglas piloto el texto es idéntico
+          (verificado 2026-11-09). Existen diferencias en otros numerales (p. ej. 6.1.17,
+          6.1.18 y la Tabla 1 del 6.3, que solo están en el .docx).
+      - archivo: v1.0/originales/anexos-directiva-02S5-v1.0.docx
+        nombre_recibido: "ANEXOS DE LA DIRECTIVA.docx"
+        sha256: 73e4e97a5fc065df07a10afe384e48e5e28a70d7b2f3bb48529b441b06c547f2
+        rol: anexos
+        nota: "Contenido coincidente con los anexos incluidos en el .docx de la directiva."
+      - archivo: v1.0/originales/anexo-05-matriz-licencias.pdf
+        nombre_recibido: "ANEXO N05 Matriz comparativa de licencias libres y abiertas.pdf"
+        sha256: 904460c6ecad9be15f3d80a00623744d1ed615af7ca7dc4aa0781636d12adf68
+        rol: anexo-05
+        nota: "PDF de una página sin capa de texto (imagen). Cabecera: 'Página: 30 de 40', Versión 1.0."
+    extraccion:
+      archivo: v1.0/extraccion/directiva.md
+      estado_calidad: SIN-REVISAR
+      nota: >-
+        Documento de lectura. Numeración verificada contra el PDF; parte del texto está
+        resumido. El Anexo 05 se transcribió visualmente. Para citar, usar el original.
+
+regla_de_citacion: >-
+  Las reglas citan el texto literal del .docx (texto-de-referencia) y la página del PDF
+  7501018. Si el pasaje difiere entre ambos archivos, la regla registra la discrepancia
+  en "observaciones" y no elige una versión.

@@ -1,0 +1,60 @@
+esquema: regla-normativa-v1+dsw
+id_regla: REG-DSW-6.9.1
+titulo: Documentación técnica en formatos ligeros y versionados en el repositorio
+dominio: directiva-software-grh
+tipo_regla: OBLIGACION
+enunciado: La documentación técnica exigida por la directiva se elabora y mantiene en formatos ligeros
+  y versionados dentro del repositorio institucional, sin eximirse del contenido mínimo de los anexos.
+enunciado_es: PARAFRASIS-IA
+actor: null
+accion: null
+objeto: null
+condiciones: []
+excepciones: []
+plazo: null
+evidencias_requeridas: []
+fuente:
+  id_documento: DSW-02S5
+  version: v1.0
+  archivo_texto: v1.0/originales/directiva-02S5-v1.0.docx
+  sha256_texto: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
+  archivo_paginas: v1.0/originales/directiva-02S5-v1.0-sgd-7501018.pdf
+  sha256_paginas: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
+  numeral: 6.9.1
+  pagina_pdf: '8'
+  fecha_consulta: '2026-11-09'
+  texto_citado: La documentación técnica exigida por la presente directiva se elabora y mantiene en formatos
+    ligeros y versionados dentro del repositorio institucional (por ejemplo, archivos en formato Markdown),
+    sin eximir del cumplimiento del contenido mínimo exigible conforme a los anexos correspondientes.
+  texto_identico_en_pdf: true
+  extraccion: v1.0/extraccion/directiva.md
+  estado_calidad_extraccion: SIN-REVISAR
+vigencia:
+  estado: POR-CONFIRMAR
+  fecha_desde: null
+  fuente_verificacion: null
+  nota: 'Ver fuente.yaml: no consta acto de aprobación.'
+procedencia:
+  origen: IA
+  extraccion_revisada: false
+validacion:
+  estado: BORRADOR-IA
+  revision: 1
+  validado_por: null
+  fecha_ultima_revision: null
+  eventos_revision: []
+aplicacion_propuesta:
+  origen: IA
+  estado: BORRADOR-IA
+  nota: Campos de uso de la skill; son interpretación y se validan junto con la regla.
+  aplica_a:
+  - independiente
+  - utilitario
+  momento:
+  - todos
+  artefacto: documentacion
+  verificacion: La documentación del ámbito existe como archivos de texto (p. ej. .md) versionados en
+    el repositorio.
+relaciones:
+  reglas_relacionadas: []
+observaciones: []
