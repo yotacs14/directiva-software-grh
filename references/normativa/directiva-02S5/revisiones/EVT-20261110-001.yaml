@@ -1,0 +1,18 @@
+esquema: evento-revision-v1
+id_evento: EVT-20261110-001
+id_regla: REG-DSW-6.9.1
+revision_regla: 1
+accion: VALIDAR
+resultado: VALIDADO
+fecha_hora: '2026-11-10T18:57:59-05:00'
+revisor: NO-REGISTRADO
+nota_revisor: El validador decidió no registrar nombre ni cargo mientras la directiva no sea oficial.
+verificado:
+  texto_citado: true
+  numeral_y_pagina: true
+  vigencia: false
+  aplicacion_propuesta: true
+comentario: 'Respuesta del validador: ''si'', ante la pregunta de si la extracción literal (directiva-literal.md)
+  resolvía la observación de EVT-20261109-001.'
+registrado_por: agente-ia
+evento_anterior: EVT-20261109-001

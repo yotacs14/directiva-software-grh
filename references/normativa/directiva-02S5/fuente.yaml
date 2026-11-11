@@ -54,11 +54,23 @@ versiones:
         rol: anexo-05
         nota: "PDF de una página sin capa de texto (imagen). Cabecera: 'Página: 30 de 40', Versión 1.0."
     extraccion:
-      archivo: v1.0/extraccion/directiva.md
-      estado_calidad: SIN-REVISAR
-      nota: >-
-        Documento de lectura. Numeración verificada contra el PDF; parte del texto está
-        resumido. El Anexo 05 se transcribió visualmente. Para citar, usar el original.
+      - archivo: v1.0/extraccion/directiva-literal.md
+        tipo: literal
+        generado_con: scripts/extraer_docx.py
+        fecha: "2026-11-10"
+        estado_calidad: SIN-REVISAR
+        verificacion_automatica: >-
+          Numeración: 121/121 rótulos coinciden con el render del .docx (LibreOffice) y
+          120/121 con el PDF 7501018 (falta "6.3.3.", que solo existe en el .docx).
+          Texto: 97% de las palabras coinciden en orden con el render del .docx; las
+          diferencias corresponden a tablas (orden de columnas), marcas de nota al pie y
+          de imagen, no a la redacción.
+      - archivo: v1.0/extraccion/resumen-lectura.md
+        tipo: resumen
+        estado_calidad: SIN-REVISAR
+        nota: >-
+          Resumen de lectura: parte del texto está parafraseado. Incluye la transcripción
+          visual del Anexo 05 (sin revisar). No usar para citar.
 
 regla_de_citacion: >-
   Las reglas citan el texto literal del .docx (texto-de-referencia) y la página del PDF

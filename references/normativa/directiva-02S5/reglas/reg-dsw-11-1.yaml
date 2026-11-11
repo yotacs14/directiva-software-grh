@@ -37,7 +37,7 @@ fuente:
     del software institucional desarrollado internamente que se encuentra en producción o cuyo desarrollo
     ha concluido, acompañado de la siguiente información y documentación, según corresponda:'
   texto_identico_en_pdf: true
-  extraccion: v1.0/extraccion/directiva.md
+  extraccion: v1.0/extraccion/directiva-literal.md
   estado_calidad_extraccion: SIN-REVISAR
 vigencia:
   estado: POR-CONFIRMAR

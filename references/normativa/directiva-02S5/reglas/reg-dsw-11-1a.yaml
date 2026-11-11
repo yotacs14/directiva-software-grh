@@ -34,7 +34,7 @@ fuente:
     y protección de datos personales. Incorporación al repositorio institucional, conforme al numeral
     7.1.'
   texto_identico_en_pdf: true
-  extraccion: v1.0/extraccion/directiva.md
+  extraccion: v1.0/extraccion/directiva-literal.md
   estado_calidad_extraccion: SIN-REVISAR
 vigencia:
   estado: POR-CONFIRMAR

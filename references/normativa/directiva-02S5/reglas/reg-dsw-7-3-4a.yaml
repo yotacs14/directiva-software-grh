@@ -24,10 +24,10 @@ fuente:
   pagina_pdf: '12'
   fecha_consulta: '2026-11-09'
   texto_citado: 'Determinada la aplicación de una licencia libre o abierta al software institucional,
-    las Unidades de Organización aseguran el cumplimiento de lo siguiente: […] a) La documentación asociada incorpora
-    las glosas de licencia establecidas en el Anexo N°06.'
+    las Unidades de Organización aseguran el cumplimiento de lo siguiente: […] a) La documentación asociada
+    incorpora las glosas de licencia establecidas en el Anexo N°06.'
   texto_identico_en_pdf: true
-  extraccion: v1.0/extraccion/directiva.md
+  extraccion: v1.0/extraccion/directiva-literal.md
   estado_calidad_extraccion: SIN-REVISAR
 vigencia:
   estado: POR-CONFIRMAR
@@ -38,14 +38,15 @@ procedencia:
   origen: IA
   extraccion_revisada: false
 validacion:
-  estado: BORRADOR-IA
+  estado: VALIDADO
   revision: 1
-  validado_por: null
-  fecha_ultima_revision: null
-  eventos_revision: []
+  validado_por: NO-REGISTRADO
+  fecha_ultima_revision: '2026-11-11'
+  eventos_revision:
+  - EVT-20261111-004
 aplicacion_propuesta:
   origen: IA
-  estado: BORRADOR-IA
+  estado: VALIDADO
   nota: Campos de uso de la skill; son interpretación y se validan junto con la regla.
   aplica_a:
   - independiente

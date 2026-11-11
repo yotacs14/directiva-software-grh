@@ -11,7 +11,8 @@ references/
   normativa/directiva-02S5/
     fuente.yaml                   ficha de la norma: archivos, SHA-256, firmas, vigencia
     v1.0/originales/              originales recibidos, sin modificar
-    v1.0/extraccion/              Markdown de lectura (no es fuente normativa) + diagramas
+    v1.0/extraccion/              directiva-literal.md (copia literal generada del .docx),
+                                  resumen-lectura.md (resumen, no citar) y diagramas
     v1.0/guia-lectura.md          tema → numeral → página
     reglas/                       reglas atómicas REG-DSW-*.yaml
     revisiones/                   eventos de validación (inmutables)
@@ -21,7 +22,7 @@ references/
   dependencias.md                 cómo obtener licencias por ecosistema
   build-gorehco.md                especificación de Word/PDF
 assets/                           logo GOREHCO
-scripts/                          (pendiente) construcción de Word/PDF
+scripts/                          extraer_docx.py (extracción literal); construcción de Word/PDF pendiente
 ```
 
 ## Principios

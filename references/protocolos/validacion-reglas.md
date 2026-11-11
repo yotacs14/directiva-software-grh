@@ -14,7 +14,7 @@
 
 La **vigencia** se registra aparte de la validación. Una regla puede estar `VALIDADO` en su texto y su vigencia seguir `POR-CONFIRMAR` (caso actual: no consta la aprobación de la directiva).
 
-**Validador actual:** el usuario responsable del proyecto (decisión del 2026-11-09). Se registra con nombre y cargo; no se registra DNI.
+**Validador actual:** el usuario responsable del proyecto (decisión del 2026-11-09). Se registra con nombre y cargo cuando el validador lo autoriza; nunca DNI. Mientras la directiva no sea oficial, el validador decidió no registrar su identidad: los eventos llevan `revisor: NO-REGISTRADO` (decisión del 2026-11-09).
 
 ## 2. Sesión de validación
 

@@ -19,7 +19,7 @@ Versión de la skill: ver `CHANGELOG.md`. Norma cargada: `references/normativa/d
 
 1. Leer `references/protocolos/no-inventar.md` y aplicarlo a toda salida.
 2. Leer `references/normativa/directiva-02S5/fuente.yaml`: la aprobación y la vigencia de la directiva están **POR-CONFIRMAR**. No computar plazos "desde la entrada en vigencia".
-3. Para ubicar un tema usar `v1.0/guia-lectura.md`; para citar, el original (texto del .docx, página del PDF 7501018).
+3. Para ubicar un tema usar `v1.0/guia-lectura.md`; para leer el texto completo, `v1.0/extraccion/directiva-literal.md`; para citar, el original (texto del .docx, página del PDF 7501018). `resumen-lectura.md` es un resumen y no se usa para citar.
 4. Respetar las reglas del repositorio del proyecto (p. ej. "ESTRUCTURA PRIMERO" y reglas de git de su `CLAUDE.md`). Esta skill no ejecuta commits ni crea tags salvo pedido expreso.
 5. Armar un paquete de contexto (`references/plantillas/paquete-contexto.yaml`) y cargar solo lo necesario.
 
@@ -47,9 +47,9 @@ Matriz de dependencias desde archivos de bloqueo (`references/dependencias.md`) 
 Seguir `references/build-gorehco.md`. Fuente única: el `.md` del documento. (Script pendiente — paso 8 del plan.)
 
 ### actualizar norma — "salió una nueva versión de la directiva"
-Seguir `references/protocolos/actualizacion-norma.md`.
+Seguir `references/protocolos/actualizacion-norma.md`. La extracción literal se genera con `python3 -I scripts/extraer_docx.py <docx> <salida.md> --pdf-texto <pdftotext.txt>`.
 
 ## Estado del contenido de la skill
 
-- Reglas: 13 piloto en `BORRADOR-IA` (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). El resto de la directiva aún no está descompuesto en reglas.
+- Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-11: 11 `VALIDADO` (6.9.1, 6.9.2, 7.3.2, 7.3.2a, 7.3.2b, 7.3.3a–c, 7.3.4a–c), 2 `BORRADOR-IA` (11.1, 11.1a). El resto de la directiva aún no está descompuesto en reglas.
 - Script de construcción: pendiente.

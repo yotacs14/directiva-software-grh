@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — 2026-11-10 (borrador, no publicado)
+
+- Extracción literal `directiva-literal.md` generada automáticamente del .docx (`scripts/extraer_docx.py`), con la numeración de Word reconstruida: 121/121 rótulos coinciden con el render del .docx.
+- La extracción anterior se renombra `resumen-lectura.md` y se marca como resumen (no citar). Sus capítulos pasan a numeración romana (I–XII), como en el original.
+- Primera sesión de validación (2026-11-09): 6.9.2, 7.3.2, 7.3.2 a) y 7.3.2 b) VALIDADO; 6.9.1 OBSERVADO (duda originada en el resumen, no en el texto citado). Revisor NO-REGISTRADO por decisión del validador.
+- Protocolo de validación: admite revisor NO-REGISTRADO.
+- Segunda sesión (2026-11-10/11): 6.9.1 VALIDADO tras la extracción literal; 7.3.3 a)–c) y 7.3.4 a)–c) VALIDADO tal como se presentaron. Quedan en BORRADOR-IA: 11.1 y 11.1 a).
+- `CLAUDE.md` con reglas de mantenimiento del repositorio (estructura primero, git, no inventar, normativa, validación).
+- Hallazgo sobre el original: el .docx tiene numeraciones que Word continúa entre listas distintas (6.1.9–6.1.18, 6.3.3); se reconstruyeron igual que en el render del documento.
+
 ## 0.1.0 — 2026-11-09 (borrador, no publicado)
 
 - Originales de la Directiva N°02.S5.DI.SGMTD – V1.0 registrados con SHA-256 (.docx, PDF SGD 7501018, Anexos .docx, Anexo 05 PDF).

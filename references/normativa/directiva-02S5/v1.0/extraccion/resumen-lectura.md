@@ -2,7 +2,7 @@
 
 **"Directiva para el desarrollo, documentación, versionamiento, licenciamiento y gestión de repositorios de software institucional en el Gobierno Regional Huánuco"**
 
-> **Documento de lectura, no fuente normativa.** Extracción a Markdown de `Directiva Software Institucional GOREHCO.docx` (metadatos internos: última modificación 16/09/2026, 116 revisiones). Prevalece siempre el original.
+> **RESUMEN DE LECTURA — no es copia literal ni fuente normativa.** Para el texto literal usar `directiva-literal.md`; para citar, el original. Resumen elaborado a partir de `Directiva Software Institucional GOREHCO.docx` (metadatos internos: última modificación 16/09/2026, 116 revisiones). Prevalece siempre el original.
 > **Estado de aprobación:** no consta. El PDF `7501018` (versión de julio) solo lleva firma del formulador (22/07/2026) y conformidad del Sub Gerente de la SGMTD (24/07/2026); no hay firma de Asesoría Jurídica ni de la Gerencia General, ni RGG visible. Vigencia: **POR-CONFIRMAR**.
 > La numeración se reconstruyó y verificó contra el PDF `7501018`. **Parte del texto está resumido o parafraseado** (numerales 5, 7.1, 7.2, 7.3.5–7.3.9, 7.4, 7.5, 9, 10, 11): para citar, usar el original.
 > El Anexo N°05 (matriz de licencias) es un adjunto independiente; se transcribe al final desde `ANEXO N05 Matriz comparativa de licencias libres y abiertas.pdf`.
@@ -32,15 +32,15 @@
 
 ---
 
-## 1. OBJETIVO
+## I. OBJETIVO
 
 Establecer disposiciones para el desarrollo, documentación, versionamiento, licenciamiento y gestión de repositorios de software institucional, con el fin de asegurar la titularidad, trazabilidad, seguridad de la información y gobernanza técnica del software desarrollado en el Gobierno Regional Huánuco.
 
-## 2. FINALIDAD
+## II. FINALIDAD
 
 Estandarizar la gestión del software desarrollado en el Gobierno Regional Huánuco, asegurando documentación mínima, control de versiones, uso del repositorio institucional, seguridad de la información, protección de datos personales y criterios técnicos para su licenciamiento, puesta en producción, permanencia como software privado institucional o, de corresponder, liberación como software libre, abierto o Software Público Peruano.
 
-## 3. BASE LEGAL
+## III. BASE LEGAL
 
 1. Ley N°27867, Ley Orgánica de Gobiernos Regionales, y modificatorias.
 2. Ley N°27444, Ley del Procedimiento Administrativo General, cuyo TUO fue aprobado mediante D.S. N°006-2026-JUS, y modificatorias.
@@ -66,17 +66,17 @@ Estandarizar la gestión del software desarrollado en el Gobierno Regional Huán
 22. R.G.G. N°0167-2025-GRH/GGR, Mapa de Procesos del GRH, Versión 3.0.
 23. R.G.G. N°295-2025-GRH/GGR, Directiva N°01.E2.DI.SGMTD–V2.0, "Directiva General para la formulación, modificación y aprobación de documentos normativos en el GRH".
 
-## 4. ALCANCE
+## IV. ALCANCE
 
 De aplicación obligatoria para todas las Unidades de Organización del Pliego Gobierno Regional Huánuco que desarrollen, contraten, mantengan, modifiquen, documenten, versionen, implementen o administren un software.
 
-## 5. RESPONSABILIDADES
+## V. RESPONSABILIDADES
 
 - **5.1** Las Unidades de Organización del Pliego son responsables de cumplir las disposiciones de la directiva.
 - **5.2** La SGMTD es responsable de conducir, supervisar y efectuar el seguimiento técnico de su aplicación.
 - **5.3** El Funcionario Responsable del Software Público Peruano coordina las acciones para solicitar la incorporación de software institucional a la Plataforma Nacional de SPP, conforme a la Directiva N°001-2019-PCM/SEGDI.
 
-## 6. DISPOSICIONES GENERALES
+## VI. DISPOSICIONES GENERALES
 
 ### 6.1 De las definiciones
 
@@ -148,7 +148,7 @@ De aplicación obligatoria para todas las Unidades de Organización del Pliego G
 - **6.9.1** La documentación técnica se elabora y mantiene en **formatos ligeros y versionados dentro del repositorio institucional (por ejemplo, archivos Markdown)**, sin eximir del contenido mínimo exigible de los anexos.
 - **6.9.2** La documentación técnica se elabora de manera **incremental**, conforme al avance del software, y se mantiene actualizada y consistente con el estado real del software en cada verificación.
 
-## 7. DISPOSICIONES ESPECÍFICAS
+## VII. DISPOSICIONES ESPECÍFICAS
 
 ### 7.1 Incorporación del software al repositorio institucional
 
@@ -242,7 +242,7 @@ c) **Todos los archivos fuente** incorporan comentarios/encabezados que identifi
 - **7.5.6** Las actuaciones posteriores ante la Plataforma se sujetan a las disposiciones de la SGTD.
 - **7.5.7** La Unidad de Organización mantiene la responsabilidad de actualización, mantenimiento, disponibilidad de la documentación y atención de observaciones.
 
-## 8. PROCESO RELACIONADO
+## VIII. PROCESO RELACIONADO
 
 Proceso de apoyo de nivel 1 **S5.2 Desarrollo e Implementación de Servicios Digitales**, del proceso **S5. Gestión de Transformación Digital** (Mapa de Procesos v3.0, R.G.G. N°0167-2025-GRH/GGR).
 
@@ -250,14 +250,14 @@ Proceso de apoyo de nivel 1 **S5.2 Desarrollo e Implementación de Servicios Dig
 |---|---|---|---|
 | S5 | Gestión de Transformación Digital | S5.2 | Desarrollo e Implementación de Servicios Digitales |
 
-## 9. DISPOSICIONES COMPLEMENTARIAS
+## IX. DISPOSICIONES COMPLEMENTARIAS
 
 - **9.1** La SGMTD puede actualizar la plataforma de alojamiento, estructura de repositorios, nomenclatura, reglas de acceso, políticas de ramas, plantillas, formatos o mecanismos técnicos de control de versiones. Si ello cambia obligaciones, requisitos, procedimientos, derechos o plazos de la directiva, debe tramitarse como modificación del documento normativo.
 - **9.2** **Unidades Ejecutoras:** la dependencia equivalente a la SGMTD hace la evaluación preliminar (verifica, observa, solicita información, emite informe técnico); luego la Unidad Ejecutora remite el expediente completo a la SGMTD (vía GRPPAT) para pronunciamiento final. Pueden solicitar asistencia técnica a la SGMTD.
 - **9.3** La incorporación al repositorio no exime de las obligaciones de documentación mínima, versionamiento, titularidad, licenciamiento, seguridad y protección de datos.
 - **9.4** Los aspectos técnicos no previstos son atendidos por la SGMTD, sin crear nuevas obligaciones ni modificar procedimientos.
 
-## 10. DISPOSICIONES FINALES
+## X. DISPOSICIONES FINALES
 
 - **10.1** Vigencia: a partir del día siguiente de su aprobación por acto resolutivo.
 - **10.2** Las Unidades de Organización adoptan obligatoriamente las acciones necesarias para su cumplimiento.
@@ -265,7 +265,7 @@ Proceso de apoyo de nivel 1 **S5.2 Desarrollo e Implementación de Servicios Dig
 - **10.4** Toda disposición interna o práctica incompatible se adecúa a esta directiva.
 - **10.5** No exime del cumplimiento de normas sobre derecho de autor, contratación pública, seguridad de la información, protección de datos, transparencia y gobierno digital.
 
-## 11. DISPOSICIONES TRANSITORIAS
+## XI. DISPOSICIONES TRANSITORIAS
 
 - **11.1** Las Unidades de Organización con software desarrollado internamente **en producción o con desarrollo concluido** regularizan su adecuación (repositorio, documentación, versionamiento, titularidad, licenciamiento y demás requisitos). Para ello remiten a la SGMTD (vía GRPPAT), en un **plazo máximo de 60 días hábiles** desde la vigencia, el **inventario** del software acompañado de:
 
@@ -290,7 +290,7 @@ Proceso de apoyo de nivel 1 **S5.2 Desarrollo e Implementación de Servicios Dig
 - **11.4** La SGMTD evalúa el inventario y puede requerir información, observar, solicitar subsanaciones y disponer acciones de regularización.
 - **11.5** La regularización **no suspende la operación** del software en producción; pero todo mantenimiento, evolución, nueva funcionalidad o nueva versión posterior se sujeta íntegramente a la directiva.
 
-## 12. ANEXOS
+## XII. ANEXOS
 
 | Anexo | Contenido |
 |---|---|

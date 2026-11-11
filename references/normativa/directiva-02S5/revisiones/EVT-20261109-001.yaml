@@ -1,0 +1,19 @@
+esquema: evento-revision-v1
+id_evento: EVT-20261109-001
+id_regla: REG-DSW-6.9.1
+revision_regla: 1
+accion: OBSERVAR
+resultado: OBSERVADO
+fecha_hora: '2026-11-09T19:06:11-05:00'
+revisor: NO-REGISTRADO
+nota_revisor: El validador decidió no registrar nombre ni cargo mientras la directiva no sea oficial.
+verificado:
+  texto_citado: true
+  numeral_y_pagina: true
+  vigencia: false
+  aplicacion_propuesta: false
+comentario: 'El validador indica: ''no estoy seguro si tiene que ser igual al original''. La duda surge
+  porque la extracción directiva.md resume el numeral 6.9.1; el texto_citado de la regla sí es literal
+  del .docx.'
+registrado_por: agente-ia
+evento_anterior: null
