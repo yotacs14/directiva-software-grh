@@ -51,5 +51,5 @@ Seguir `references/protocolos/actualizacion-norma.md`. La extracción literal se
 
 ## Estado del contenido de la skill
 
-- Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-11: 11 `VALIDADO` (6.9.1, 6.9.2, 7.3.2, 7.3.2a, 7.3.2b, 7.3.3a–c, 7.3.4a–c), 2 `BORRADOR-IA` (11.1, 11.1a). El resto de la directiva aún no está descompuesto en reglas.
+- Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-11: las 13 en `VALIDADO` (vigencia POR-CONFIRMAR). El resto de la directiva aún no está descompuesto en reglas.
 - Script de construcción: pendiente.

@@ -6,7 +6,8 @@
 - La extracción anterior se renombra `resumen-lectura.md` y se marca como resumen (no citar). Sus capítulos pasan a numeración romana (I–XII), como en el original.
 - Primera sesión de validación (2026-11-09): 6.9.2, 7.3.2, 7.3.2 a) y 7.3.2 b) VALIDADO; 6.9.1 OBSERVADO (duda originada en el resumen, no en el texto citado). Revisor NO-REGISTRADO por decisión del validador.
 - Protocolo de validación: admite revisor NO-REGISTRADO.
-- Segunda sesión (2026-11-10/11): 6.9.1 VALIDADO tras la extracción literal; 7.3.3 a)–c) y 7.3.4 a)–c) VALIDADO tal como se presentaron. Quedan en BORRADOR-IA: 11.1 y 11.1 a).
+- Segunda sesión (2026-11-10/11): 6.9.1 VALIDADO tras la extracción literal; 7.3.3 a)–c) y 7.3.4 a)–c) VALIDADO tal como se presentaron. 11.1 y 11.1 a) VALIDADO el 2026-11-11: las 13 reglas piloto quedan validadas (vigencia POR-CONFIRMAR).
+- Corrección en 11.1 a): la observación sobre el rótulo "a." era un error de la conversión inicial; el .docx y el PDF muestran a) y b).
 - `CLAUDE.md` con reglas de mantenimiento del repositorio (estructura primero, git, no inventar, normativa, validación).
 - Hallazgo sobre el original: el .docx tiene numeraciones que Word continúa entre listas distintas (6.1.9–6.1.18, 6.3.3); se reconstruyeron igual que en el render del documento.
 

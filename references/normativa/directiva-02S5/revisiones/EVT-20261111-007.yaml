@@ -1,0 +1,17 @@
+esquema: evento-revision-v1
+id_evento: EVT-20261111-007
+id_regla: REG-DSW-11.1
+revision_regla: 1
+accion: VALIDAR
+resultado: VALIDADO
+fecha_hora: '2026-11-11T10:22:07-05:00'
+revisor: NO-REGISTRADO
+nota_revisor: El validador decidió no registrar nombre ni cargo mientras la directiva no sea oficial.
+verificado:
+  texto_citado: true
+  numeral_y_pagina: true
+  vigencia: false
+  aplicacion_propuesta: true
+comentario: 'Respuesta del validador: ''valido''.'
+registrado_por: agente-ia
+evento_anterior: null
