@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.3.4 — 2026-11-12 (borrador, no publicado)
+
+- Justificado selectivo: no se justifican párrafos con saltos de línea manuales ni textos breves (< 160 caracteres), que se estiraban (p. ej. notas con listas cortas).
+
+## 0.3.3 — 2026-11-12 (borrador, no publicado)
+
+- Índice de contenido y glosa de licencia en páginas propias (salto antes del primer y del segundo encabezado de mayor nivel); el resto fluye.
+- Párrafos de texto del cuerpo justificados (no títulos, imágenes ni celdas de tabla).
+
+## 0.3.2 — 2026-11-12 (borrador, no publicado)
+
+- Saltos de página: solo el índice de contenido ocupa página propia; el cuerpo empieza en página nueva y luego fluye sin saltos por sección (evita hojas con pocas líneas). `--sin-saltos` desactiva también ese salto.
+
+## 0.3.1 — 2026-11-12 (borrador, no publicado)
+
+- Cada sección general (encabezado de mayor nivel) empieza en página nueva; opción `--sin-saltos` para documentos breves.
+- Tablas: anchos de columna calculados según el contenido (palabra más larga del encabezado y del cuerpo; resto proporcional al texto), diseño fijo, fila de encabezado repetida en cada página, filas que no se parten y tablas breves que no se separan de su encabezado.
+- Separación entre la cabecera de página y el cuerpo.
+- Listas dentro de recuadros de nota se muestran como viñetas.
+
+## 0.3.0 — 2026-11-12 (borrador, no publicado)
+
+- `scripts/build_docx.py`: construye Word y PDF con formato GOREHCO desde un `.md` (portada con tabla de firmas, cabecera con logo y `Página X de N`, pie, índice de contenido, tablas con estilo, imágenes ajustadas, advertencias de capturas e imágenes faltantes y de marcas POR-CONFIRMAR).
+- `scripts/mermaid_render.py`: diagramas Mermaid (erDiagram, flowchart/graph, stateDiagram, sequenceDiagram) a PNG con Graphviz y matplotlib, sin navegador.
+- `scripts/uno_pdf.py`: exportación a PDF con LibreOffice actualizando índices y campos.
+- Limitaciones conocidas: no numera figuras ni tablas automáticamente; no genera índices de figuras y tablas ni hoja de control de cambios.
+
 ## 0.2.0 — 2026-11-10 (borrador, no publicado)
 
 - Extracción literal `directiva-literal.md` generada automáticamente del .docx (`scripts/extraer_docx.py`), con la numeración de Word reconstruida: 121/121 rótulos coinciden con el render del .docx.

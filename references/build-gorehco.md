@@ -1,6 +1,6 @@
 # Construcción de Word/PDF con formato GOREHCO
 
-Estado: **BORRADOR**. El script de construcción (`scripts/build_docx.py`) aún no existe; se implementa en el paso 8 del plan.
+Estado: **BORRADOR**. Implementado en `scripts/build_docx.py` (v0.3.0). Pendiente de implementar: numeración automática de figuras y tablas, índices de figuras y tablas, y hoja de control de cambios desde el `CHANGELOG.md`.
 
 ## Origen del formato
 
@@ -52,6 +52,13 @@ Alto de cada fila: 0.7 cm.
 1. Portada: logo, entidad, título, versión, fecha y tabla de firmas (Elaborado / Revisado / Aprobado) con nombres **solo** si constan en el manifiesto de la entrega; si no, en blanco.
 2. Hoja de control de cambios a partir del `CHANGELOG.md` del proyecto.
 3. Índice de contenido, índice de figuras e índice de tablas (estos dos últimos solo listan figuras y tablas).
+
+## Tablas y saltos de página
+
+- Anchos de columna calculados según el contenido; columnas de números o códigos cortos angostas, columnas descriptivas anchas.
+- Encabezado de tabla repetido en cada página; filas que no se parten; tablas breves (≤ 20 filas y ≤ 1200 caracteres) no se separan.
+- El índice de contenido y la glosa de licencia ocupan páginas propias; el resto del cuerpo fluye sin saltos forzados (`--sin-saltos` desactiva estos saltos).
+- Párrafos del cuerpo de varias líneas justificados; no se justifican textos breves (< 160 caracteres), párrafos con saltos de línea manuales, títulos, imágenes ni celdas de tabla.
 
 ## Salida
 

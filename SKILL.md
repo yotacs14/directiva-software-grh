@@ -44,7 +44,7 @@ Seguir `references/protocolos/validacion-reglas.md`. Solo se registra `VALIDADO`
 Matriz de dependencias desde archivos de bloqueo (`references/dependencias.md`) e informe de determinación contra el Anexo N°05 (`references/plantillas/licenciamiento.md`). Cada celda del Anexo N°05 citada se contrasta con el PDF original (la extracción está SIN-REVISAR).
 
 ### construir — "genera Word/PDF de …"
-Seguir `references/build-gorehco.md`. Fuente única: el `.md` del documento. (Script pendiente — paso 8 del plan.)
+Seguir `references/build-gorehco.md`. Fuente única: el `.md` del documento. Comando: `python3 -I scripts/build_docx.py <doc.md> <carpeta_salida> --pie "<texto con <version>>" --pdf`. Revisar las advertencias que imprime.
 
 ### actualizar norma — "salió una nueva versión de la directiva"
 Seguir `references/protocolos/actualizacion-norma.md`. La extracción literal se genera con `python3 -I scripts/extraer_docx.py <docx> <salida.md> --pdf-texto <pdftotext.txt>`.
@@ -52,4 +52,4 @@ Seguir `references/protocolos/actualizacion-norma.md`. La extracción literal se
 ## Estado del contenido de la skill
 
 - Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-11: las 13 en `VALIDADO` (vigencia POR-CONFIRMAR). El resto de la directiva aún no está descompuesto en reglas.
-- Script de construcción: pendiente.
+- Script de construcción: disponible (v0.3.0); sin numeración automática de figuras/tablas ni índices de figuras y tablas.
