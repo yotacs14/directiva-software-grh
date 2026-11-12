@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.5 — 2026-11-12 (borrador, no publicado)
+
+- El `.docx` final se guarda desde LibreOffice tras calcular el índice de contenido: Word muestra el índice sin tener que actualizar campos (antes solo el PDF lo traía). Se retira `updateFields`.
+- `uno_pdf.py`: opción `--docx-actualizado`.
+- Se omiten las líneas de navegación del repositorio (`Sube a: …`) al construir.
+
 ## 0.3.4 — 2026-11-12 (borrador, no publicado)
 
 - Justificado selectivo: no se justifican párrafos con saltos de línea manuales ni textos breves (< 160 caracteres), que se estiraban (p. ej. notas con listas cortas).

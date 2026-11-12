@@ -87,6 +87,7 @@ def preprocess(md_path, tmp):
         if "CAPTURA" in c:
             warnings.append("Captura pendiente: " + " ".join(c.split())[:140])
     raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+    raw = re.sub(r"^Sube a: .*\n", "", raw, flags=re.M)  # navegación del repositorio, no del documento
     # primer título H1 se usa en la portada; se retira del cuerpo
     raw = re.sub(r"^# .*\n", "", raw, count=1, flags=re.M)
     # Mermaid -> PNG
@@ -377,13 +378,14 @@ def build(md_path, out_dir, pie, pdf, saltos=True):
     spacing_header(s)
     footer(s, pie.replace("<version>", str(meta.get("version_documento", ""))))
     doc.save(out)
-    # Word actualiza índice y campos al abrir
-    st = doc.settings.element
-    uf = OxmlElement("w:updateFields"); uf.set(qn("w:val"), "true"); st.append(uf)
     doc.save(out)
     if pdf:
+        # LibreOffice calcula el índice de contenido: se usa para el PDF y para el .docx final
+        upd = os.path.join(out_dir, f"{base}.upd.docx")
         subprocess.run(["/usr/bin/python3", os.path.join(HERE, "uno_pdf.py"), out,
-                        os.path.join(out_dir, f"{base}.pdf")], timeout=600, check=True)
+                        os.path.join(out_dir, f"{base}.pdf"), "--docx-actualizado", upd], timeout=600, check=True)
+        if os.path.exists(upd):
+            shutil.move(upd, out)
     os.makedirs(final_dir, exist_ok=True)
     for ext in (".docx", ".pdf"):
         f = os.path.join(out_dir, base + ext)
