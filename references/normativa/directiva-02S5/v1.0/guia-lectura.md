@@ -14,7 +14,7 @@ Ayuda a ubicar un tema en el original. **No es fuente normativa:** para citar, a
 |---|---|
 | Texto de referencia | `originales/directiva-02S5-v1.0.docx` (SHA-256 `5d729c94…ba63464`) |
 | Páginas | `originales/directiva-02S5-v1.0-sgd-7501018.pdf` (SHA-256 `668f255c…ba63464`), 38 páginas físicas; en las páginas consultadas la cabecera "Página N de 37" coincide con la página física |
-| Aprobación / vigencia | **POR-CONFIRMAR** (ver `../fuente.yaml`) |
+| Aprobación / vigencia | RGG N°429-2026-GRH/GGR (21/09/2026); vigente desde 22/09/2026 (ver `../fuente.yaml`) |
 | Diferencia conocida entre archivos | En el .docx, 6.1.17 y 6.1.18 tienen otra redacción que en el PDF, y la Tabla 1 del 6.3 ("Diferenciación de derechos") solo existe en el .docx. No se hizo una comparación completa entre ambos archivos. Los numerales de las reglas piloto son idénticos en ambos |
 
 ## Mapa de lectura (páginas del PDF 7501018)

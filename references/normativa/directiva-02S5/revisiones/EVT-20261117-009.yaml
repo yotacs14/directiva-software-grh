@@ -1,0 +1,20 @@
+esquema: evento-revision-v1
+id_evento: EVT-20261117-009
+id_regla: REG-DSW-7.3.4a
+revision_regla: 1
+accion: REVALIDAR
+resultado: VALIDADO
+fecha_hora: '2026-11-17T12:30:00-05:00'
+revisor: Ing. Walther Raul II Benjamin Aguirre Tello — Ingeniero de Sistemas, GRI
+nota_revisor: >-
+  Identidad del validador indicada por el usuario de la sesión (cuenta yotacs14) el 2026-11-17:
+  las validaciones registradas como NO-REGISTRADO corresponden al responsable técnico. Se registra
+  ahora porque la directiva ya es oficial (RGG N°429-2026-GRH/GGR).
+verificado:
+  texto_citado: true
+  numeral_y_pagina: true
+  vigencia: true
+  aplicacion_propuesta: true
+comentario: 'Vigencia verificada: RGG N°429-2026-GRH/GGR (21/09/2026), vigente desde 22/09/2026; texto sin cambio respecto del PDF firmado.'
+registrado_por: agente-ia
+evento_anterior: EVT-20261111-004

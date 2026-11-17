@@ -22,7 +22,7 @@ fecha_actualizacion: AAAA-MM-DD
 | Vía de cumplimiento | hitos 7.3 / regularización 11.1 |  |
 | Licencia del software | POR-CONFIRMAR | informe de determinación |
 | Datos personales | sí / no — cuáles |  |
-| Directiva aplicada | DSW-02S5 v1.0 (vigencia POR-CONFIRMAR) |  |
+| Directiva aplicada | DSW-02S5 v1.0 (RGG N°429-2026-GRH/GGR; vigente desde 22/09/2026) |  |
 
 ## Estado de los documentos
 

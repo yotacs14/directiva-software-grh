@@ -12,9 +12,9 @@
 | `REVALIDACION-REQUERIDA` | Cambió la fuente o su ubicación; suspende su uso | IA (automático) o persona |
 | `RETIRADO` | Ya no se usa; se conserva por trazabilidad | Validador |
 
-La **vigencia** se registra aparte de la validación. Una regla puede estar `VALIDADO` en su texto y su vigencia seguir `POR-CONFIRMAR` (caso actual: no consta la aprobación de la directiva).
+La **vigencia** se registra aparte de la validación. Una regla puede estar `VALIDADO` en su texto y su vigencia seguir `POR-CONFIRMAR` (así estuvieron las 13 reglas piloto hasta el 2026-11-16, cuando se registró la RGG N°429-2026-GRH/GGR).
 
-**Validador actual:** el usuario responsable del proyecto (decisión del 2026-11-09). Se registra con nombre y cargo cuando el validador lo autoriza; nunca DNI. Mientras la directiva no sea oficial, el validador decidió no registrar su identidad: los eventos llevan `revisor: NO-REGISTRADO` (decisión del 2026-11-09).
+**Validador actual:** el usuario responsable del proyecto (decisión del 2026-11-09). Se registra con nombre y cargo cuando el validador lo autoriza; nunca DNI. Hasta el 2026-11-16 los eventos llevan `revisor: NO-REGISTRADO`; desde el 2026-11-17 el validador es el Ing. Walther Raul II Benjamin Aguirre Tello (eventos `EVT-20261117-*`, que revalidan las 13 reglas piloto).
 
 ## 2. Sesión de validación
 

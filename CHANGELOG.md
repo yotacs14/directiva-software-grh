@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-11-16 (borrador, no publicado)
+
+- Directiva aprobada: se registran la RGG N°429-2026-GRH/GGR (21/09/2026) y el PDF firmado de la directiva en `v1.0/originales/` con su SHA-256.
+- Vigencia desde el 22/09/2026 (numeral 10.1); plazo del 11.1 estimado al 17-18/12/2026, cómputo exacto POR-CONFIRMAR.
+- Validador registrado: Ing. Walther Raul II Benjamin Aguirre Tello; 13 eventos `REVALIDAR` (`EVT-20261117-001` a `013`) con vigencia verificada.
+- Comparación del PDF firmado con la extracción literal: misma redacción salvo el numeral 3.13 (D.S. N°098-2025-PCM). Las 13 reglas sin cambio de texto; `vigencia: VIGENTE` y página del PDF firmado (`pagina_pdf_oficial`).
+
 ## 0.3.5 — 2026-11-12 (borrador, no publicado)
 
 - El `.docx` final se guarda desde LibreOffice tras calcular el índice de contenido: Word muestra el índice sin tener que actualizar campos (antes solo el PDF lo traía). Se retira `updateFields`.

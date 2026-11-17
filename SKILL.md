@@ -18,8 +18,8 @@ Versión de la skill: ver `CHANGELOG.md`. Norma cargada: `references/normativa/d
 ## Antes de cualquier modo
 
 1. Leer `references/protocolos/no-inventar.md` y aplicarlo a toda salida.
-2. Leer `references/normativa/directiva-02S5/fuente.yaml`: la aprobación y la vigencia de la directiva están **POR-CONFIRMAR**. No computar plazos "desde la entrada en vigencia".
-3. Para ubicar un tema usar `v1.0/guia-lectura.md`; para leer el texto completo, `v1.0/extraccion/directiva-literal.md`; para citar, el original (texto del .docx, página del PDF 7501018). `resumen-lectura.md` es un resumen y no se usa para citar.
+2. Leer `references/normativa/directiva-02S5/fuente.yaml`: la directiva fue aprobada con RGG N°429-2026-GRH/GGR (21/09/2026) y está vigente desde el 22/09/2026 (numeral 10.1). El plazo de 60 días hábiles del 11.1 vence alrededor del 17-18/12/2026; el cómputo exacto está POR-CONFIRMAR.
+3. Para ubicar un tema usar `v1.0/guia-lectura.md`; para leer el texto completo, `v1.0/extraccion/directiva-literal.md`; para citar, el original (texto del .docx; página del PDF firmado, `pagina_pdf_oficial`). `resumen-lectura.md` es un resumen y no se usa para citar.
 4. Respetar las reglas del repositorio del proyecto (p. ej. "ESTRUCTURA PRIMERO" y reglas de git de su `CLAUDE.md`). Esta skill no ejecuta commits ni crea tags salvo pedido expreso.
 5. Armar un paquete de contexto (`references/plantillas/paquete-contexto.yaml`) y cargar solo lo necesario.
 
@@ -51,5 +51,5 @@ Seguir `references/protocolos/actualizacion-norma.md`. La extracción literal se
 
 ## Estado del contenido de la skill
 
-- Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-11: las 13 en `VALIDADO` (vigencia POR-CONFIRMAR). El resto de la directiva aún no está descompuesto en reglas.
+- Reglas: 13 piloto (6.9, 7.3.2, 7.3.3, 7.3.4, 11.1). Al 2026-11-16: las 13 en `VALIDADO` y `VIGENTE`. El resto de la directiva aún no está descompuesto en reglas.
 - Script de construcción: disponible (v0.3.0); sin numeración automática de figuras/tablas ni índices de figuras y tablas.

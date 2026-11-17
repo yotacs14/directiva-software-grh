@@ -23,6 +23,7 @@ fuente:
   sha256_paginas: 668f255cd808388a40ab42be96843325cbf86d0fd39938778d655cd80ba63464
   numeral: 7.3.2 a)
   pagina_pdf: '11'
+  pagina_pdf_oficial: '12'
   fecha_consulta: '2026-11-09'
   texto_citado: 'Se considera versión mayor (X) todo cambio que: (i) afecta la compatibilidad de funcionalidades,
     integraciones o procesos existentes; (ii) modifica la arquitectura, el motor de base de datos o las
@@ -35,20 +36,21 @@ fuente:
   extraccion: v1.0/extraccion/directiva-literal.md
   estado_calidad_extraccion: SIN-REVISAR
 vigencia:
-  estado: POR-CONFIRMAR
-  fecha_desde: null
-  fuente_verificacion: null
-  nota: 'Ver fuente.yaml: no consta acto de aprobación.'
+  estado: VIGENTE
+  fecha_desde: '2026-09-22'
+  fuente_verificacion: RGG N°429-2026-GRH/GGR (21/09/2026) y numeral 10.1; ver fuente.yaml
+  nota: Registrado el 2026-11-16 por agente-ia; el texto citado no cambió respecto del PDF firmado.
 procedencia:
   origen: IA
   extraccion_revisada: false
 validacion:
   estado: VALIDADO
   revision: 1
-  validado_por: NO-REGISTRADO
-  fecha_ultima_revision: '2026-11-09'
+  validado_por: Ing. Walther Raul II Benjamin Aguirre Tello — Ingeniero de Sistemas, GRI
+  fecha_ultima_revision: '2026-11-17'
   eventos_revision:
   - EVT-20261109-004
+  - EVT-20261117-004
 aplicacion_propuesta:
   origen: IA
   estado: VALIDADO

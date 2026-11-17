@@ -64,14 +64,14 @@ Aplicar siempre `references/protocolos/no-inventar.md`. En resumen:
 - `texto_citado` se obtiene por extracción automática del original y se verifica contra el PDF; nunca se escribe a mano.
 - Cambiar el contenido de una regla ya `VALIDADO` (cita, enunciado, condiciones o `aplicacion_propuesta`)
   exige subir `revision` y dejarla en `REVALIDACION-REQUERIDA`. No editar en silencio una regla validada.
-- La vigencia se registra aparte de la validación; hoy es `POR-CONFIRMAR` (no consta la aprobación).
+- La vigencia se registra aparte de la validación; vigente desde el 22/09/2026 (RGG N°429-2026-GRH/GGR).
 
 ### Validación (`revisiones/EVT-*.yaml`)
 - **La IA nunca asigna `VALIDADO`, `OBSERVADO`, `RETIRADO` ni `APROBADO` por su cuenta.** Solo registra
   la respuesta expresa del validador en la conversación, transcribiéndola en `comentario` si no es literal
   ("valido", "observo: …").
 - Los eventos son **inmutables**: una corrección es un evento nuevo con `evento_anterior`.
-- Revisor: `NO-REGISTRADO` mientras el validador no autorice registrar nombre y cargo. Nunca DNI.
+- Revisor: Ing. Walther Raul II Benjamin Aguirre Tello (registrado desde el 2026-11-17). Nunca DNI.
 - Propuestas de mejora que el validador no aprobó no se aplican; se anotan como pendientes.
 
 ## SCRIPTS

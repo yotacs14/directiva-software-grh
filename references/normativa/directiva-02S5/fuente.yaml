@@ -9,25 +9,55 @@ fecha_registro: "2026-11-09"
 registrado_por: agente-ia   # registro; no implica validación
 
 aprobacion:
-  acto_resolutivo: POR-CONFIRMAR      # no consta RGG en ninguno de los archivos recibidos
-  fecha: POR-CONFIRMAR
+  acto_resolutivo: "Resolución Gerencial General N°429-2026-GRH/GGR"
+  fecha: "2026-09-21"
+  archivo: v1.0/originales/rgg-429-2026-grh-ggr.pdf
+  fecha_registro: "2026-11-16"
   evidencia_observada: >-
-    El PDF SGD 7501018 lleva dos firmas digitales: formulador (GODOY GOICOCHEA Kevin Steven,
-    "Soy el autor del documento", 22/07/2026) y conformidad del Sub Gerente de la SGMTD
-    (AGUIRRE TELLO Walther Raul Ii Benjamin, "En señal de conformidad", 24/07/2026).
-    No se observan firmas de la Gerencia Regional de Asesoría Jurídica ni de la Gerencia
-    General Regional, que figuran en la carátula como "Revisado por" y "Aprobado por".
+    Texto de la RGG N°429-2026-GRH/GGR (Huánuco, 21 de setiembre de 2026), artículo primero:
+    "APROBAR, la Directiva N° 02.S5.DI.SGMTD - V1.0 [...]". El PDF lleva 3 firmas digitales
+    (21/09/2026 12:45, 12:51 y 13:04); los firmantes no se pudieron leer con las herramientas
+    disponibles. (Corregido el 2026-11-16: el primer registro indicó por error "sin firma".)
+    La directiva firmada (v1.0/originales/directiva-02S5-v1.0-firmada.pdf) lleva 4 firmas
+    digitales (16/09/2026 13:03; 18/09/2026 10:52, 10:53 y 11:09); los firmantes no se
+    pudieron leer con las herramientas disponibles.
+  antecedente: >-
+    El PDF SGD 7501018 (versión de julio) lleva dos firmas digitales: formulador (GODOY
+    GOICOCHEA Kevin Steven, 22/07/2026) y conformidad del Sub Gerente de la SGMTD (AGUIRRE
+    TELLO Walther Raul Ii Benjamin, 24/07/2026).
 
 vigencia:
-  estado: POR-CONFIRMAR
-  fecha_desde: null
+  estado: VIGENTE
+  fecha_desde: "2026-09-22"
+  fuente: >-
+    Numeral 10.1: "La presente directiva entra en vigencia a partir del día siguiente de su
+    aprobación mediante el acto resolutivo correspondiente." Aprobación: 21/09/2026.
   nota: >-
-    Mientras no conste la aprobación, no puede computarse ningún plazo contado "desde la
-    entrada en vigencia" (por ejemplo, los 60 días hábiles del numeral 11.1).
+    Plazo del numeral 11.1 (60 días hábiles desde la entrada en vigencia): vence alrededor del
+    17 o 18 de diciembre de 2026, según se cuente o no el 22/09/2026 y considerando feriados
+    nacionales (08/10, 08/12, 09/12). Días no laborables que se declaren después lo
+    desplazan. Cómputo exacto POR-CONFIRMAR con la SGMTD.
 
 versiones:
   - version: v1.0
     archivos:
+      - archivo: v1.0/originales/directiva-02S5-v1.0-firmada.pdf
+        nombre_recibido: "Directiva.pdf"
+        sha256: f60f70369fa063f0f61f898f8d181eb0b7167393a03288aff29a86d31531ce27
+        rol: texto-oficial   # versión aprobada; 40 páginas físicas = cabecera "Página: N de 40"
+        fecha_registro: "2026-11-16"
+        firmas: [16/09/2026, 18/09/2026, 18/09/2026, 18/09/2026]
+        comparacion_con_docx: >-
+          Comparado el 2026-11-16 con v1.0/extraccion/directiva-literal.md: misma redacción y
+          numeración. Única diferencia de texto: numeral 3.13, "Decreto Supremo N°098-2025-PCM"
+          (PDF firmado) frente a "N°098-2026-PCM" (.docx). Las 13 reglas: texto SIN-CAMBIO;
+          páginas actualizadas a este PDF en cada regla (campo pagina_pdf_oficial).
+      - archivo: v1.0/originales/rgg-429-2026-grh-ggr.pdf
+        nombre_recibido: "Resolucion Gerencial Regional N-00429-2026-GRH_GGR..pdf"
+        sha256: 1e1f3cd29eb5f541925988eb8c84e779c16462979ababc0c2c2a127a064ad4b4
+        rol: acto-de-aprobacion
+        fecha_registro: "2026-11-16"
+        firmas: [21/09/2026 12:45, 21/09/2026 12:51, 21/09/2026 13:04]
       - archivo: v1.0/originales/directiva-02S5-v1.0.docx
         nombre_recibido: "Directiva Software Institucional GOREHCO.docx"
         sha256: 5d729c94f364f33e7a42044ce0640013ff5b634dff94821687cfaeb6b3ea9d31
@@ -74,5 +104,7 @@ versiones:
 
 regla_de_citacion: >-
   Las reglas citan el texto literal del .docx (texto-de-referencia) y la página del PDF
-  7501018. Si el pasaje difiere entre ambos archivos, la regla registra la discrepancia
-  en "observaciones" y no elige una versión.
+  7501018. Desde el 2026-11-16 registran además la página del PDF firmado
+  (pagina_pdf_oficial), que es la que se cita en documentos dirigidos a la entidad. Si el
+  pasaje difiere entre archivos, prevalece el PDF firmado y la regla lo registra en
+  "observaciones".
