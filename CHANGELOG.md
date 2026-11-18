@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 — 2026-11-18 (borrador, no publicado)
+
+- `scripts/iniciar_proyecto.py`: Fase 0 en un comando (herramientas, enlace de la skill, datos del proyecto, diagnóstico automático, estructura `docs/<sigla>/`, sección en `CLAUDE.md`). No sobrescribe ni hace commits; autores anonimizados en el archivo.
+- `references/protocolos/nuevo-proyecto.md`: procedimiento completo (Fases 0 a 5) y lecciones del SGI.
+- Modo "inicializar" de `SKILL.md` remite al protocolo.
+
 ## 0.4.0 — 2026-11-16 (borrador, no publicado)
 
 - Directiva aprobada: se registran la RGG N°429-2026-GRH/GGR (21/09/2026) y el PDF firmado de la directiva en `v1.0/originales/` con su SHA-256.

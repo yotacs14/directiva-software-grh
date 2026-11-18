@@ -26,6 +26,7 @@ Versión de la skill: ver `CHANGELOG.md`. Norma cargada: `references/normativa/d
 ## Modos
 
 ### inicializar — "documenta según la directiva"
+Seguir `references/protocolos/nuevo-proyecto.md` (Fases 0 a 5). Si no existe `docs/<sigla>/`, indicar primero el comando de la Fase 0: `python3 <skill>/scripts/iniciar_proyecto.py <repo>`. Luego:
 1. Diagnóstico del repositorio: naturaleza (independiente / utilitario), modalidad, ámbito, si está en producción (si no consta: POR-CONFIRMAR), dependencias externas, documentación existente.
 2. Vía de cumplimiento: hitos (7.3.1) o regularización (11.1).
 3. Contrastar los insumos existentes contra el código y listar errores.

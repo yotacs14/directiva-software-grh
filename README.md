@@ -37,4 +37,9 @@ Ver [CHANGELOG.md](CHANGELOG.md) y la sección final de [SKILL.md](SKILL.md).
 
 ## Instalación
 
-Pendiente de definir (paquete `.skill` para Cowork y/o copia en el directorio de skills de Claude Code).
+```bash
+git clone -b dev https://github.com/yotacs14/directiva-software-grh.git
+python3 directiva-software-grh/scripts/iniciar_proyecto.py /ruta/al/repositorio --instalar
+```
+
+El script enlaza la skill en `~/.claude/skills`, verifica las herramientas y prepara `docs/<sigla>/`. Procedimiento completo: `references/protocolos/nuevo-proyecto.md`.
