@@ -386,6 +386,7 @@ def build(md_path, out_dir, pie, pdf, saltos=True):
                         os.path.join(out_dir, f"{base}.pdf"), "--docx-actualizado", upd], timeout=600, check=True)
         if os.path.exists(upd):
             shutil.move(upd, out)
+    idioma_es(out)
     os.makedirs(final_dir, exist_ok=True)
     for ext in (".docx", ".pdf"):
         f = os.path.join(out_dir, base + ext)
@@ -393,6 +394,23 @@ def build(md_path, out_dir, pie, pdf, saltos=True):
             shutil.copy(f, os.path.join(final_dir, base + ext))
     shutil.rmtree(tmp, ignore_errors=True)
     return os.path.join(final_dir, base + ".docx"), warnings
+
+
+def idioma_es(path, lang="es-PE"):
+    """Idioma de corrección: español (Perú) en todo el .docx, incluido el guardado por LibreOffice."""
+    import zipfile
+    tmp_path = path + ".lang"
+    with zipfile.ZipFile(path) as zin, zipfile.ZipFile(tmp_path, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            data = zin.read(item.filename)
+            if item.filename.startswith("word/") and item.filename.endswith(".xml"):
+                t = data.decode("utf-8")
+                t = re.sub(r'(<w:lang\b[^>]*?\bw:val=")[^"]*(")', r"\g<1>" + lang + r"\2", t)
+                if item.filename == "word/styles.xml" and "<w:lang" not in t.split("</w:rPrDefault>")[0]:
+                    t = re.sub(r"(<w:rPrDefault>\s*<w:rPr>)", r'\1<w:lang w:val="' + lang + '"/>', t, count=1)
+                data = t.encode("utf-8")
+            zout.writestr(item, data)
+    shutil.move(tmp_path, path)
 
 
 if __name__ == "__main__":
